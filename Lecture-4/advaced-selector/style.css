@@ -1,0 +1,43 @@
+/* 1. descendant */
+/* section div article{
+    background-color: yellow;
+} */
+
+/* div article{
+    background-color: yellow;
+} */
+
+/* wrong */
+/* nav article{
+    background-color: yellow;
+} */
+
+/* --------------------------- */
+/* 2. child */ 
+
+/* div > h1 > strong{
+    color: green;
+}
+
+h1 > strong{
+    color: green;
+} */
+
+/* header >  nav > section >article{
+    color: blue;
+} */
+/* nav > section >article{
+    color: blue;
+} */
+/* section > article{
+    color: blue;
+} */
+
+
+/* nav article > div{
+    color: orange;
+} */
+
+header > div h1{
+    background-color: yellow;
+}

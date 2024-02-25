@@ -1,0 +1,55 @@
+/* element selector */
+/* h1{
+    color: red;
+}
+
+p{
+    background-color: lightyellow;
+} */
+
+/* ---------------------------------- */
+/* class selectors */
+/* .singh{
+    color: red;
+}
+.sam{
+    background-color: lightblue;
+} */
+/* ------------------------------------ */
+
+/* id selector */
+
+/* #bharat-singh{
+    color: purple;
+} */
+
+/* ------------------------------------ */
+/* attribute */
+
+/* input[type="text"]{
+    background-color: aqua;
+}
+input[type="password"]{
+    background-color: blue;
+}
+
+a[href="http://google.com"]{
+    color: red;
+}
+a[href="http://facebook.com"]{
+    color: darkkhaki;
+} */
+
+
+/* ------------------------------------ */
+
+/* universal */
+
+/* *{
+    border: 2px solid black;
+} */
+
+/* *{
+    color: red;
+} */
+

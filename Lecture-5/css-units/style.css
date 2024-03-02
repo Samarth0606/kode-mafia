@@ -1,0 +1,34 @@
+/* 1. % */
+/* section{
+width: 500px;
+}
+
+div{
+    width: 100%;
+    border: 2px dashed black;
+} */
+
+/* ----------------- */
+
+/* 2. em */
+/* ul > li{
+    font-size: 2em;
+} */
+
+/* ------------------ */
+
+/* 3. rem */
+/* ul > li{
+    font-size: 2rem;
+} */
+
+
+/* 4. vh -> view height */
+/* 5. vw -> view width */
+
+div{
+    height: 70vh;
+    width: 70vw;
+    background-color: bisque;
+}
+

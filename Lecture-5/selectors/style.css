@@ -1,0 +1,18 @@
+/* adjac -> + */
+
+/* h1 + p{
+    color: red;
+} */
+
+/* general */
+
+h1 , p , span{
+    font-size: 40px;
+}
+
+h1 ~ p , h1 ~ span {
+    color: green;
+    border: 2px solid black;
+}
+
+

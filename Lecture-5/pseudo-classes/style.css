@@ -1,0 +1,65 @@
+span{
+    background-color: red;
+}
+
+span:hover{
+    background-color: aqua;
+}
+
+/* -------------------- */
+input{
+    background-color: red;
+}
+
+input:focus{
+    background-color: greenyellow;
+}
+
+
+/* ------------------ */
+
+
+button:active{
+    background-color: chocolate;
+}
+
+/* ---------------- */
+
+a:visited{
+    color: yellow;
+}
+
+
+/* ------------------ */
+
+/* li:first-child{
+    color: red;
+}
+li:last-child{
+    color: blue;
+} */
+
+
+/* ----------------- */
+
+/* li:nth-of-type(2){
+    background-color: aqua;
+}
+
+li:nth-of-type(4){
+    background-color: aqua;
+} */
+
+/* ------------------- */
+/* li:nth-of-type(odd){
+    color: red;
+}
+li:nth-of-type(even){
+    color: gray;
+} */
+
+/* ----------- */
+
+/* li:nth-of-type(3n + 5){
+    color: red;
+} */

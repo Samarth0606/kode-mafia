@@ -1,0 +1,22 @@
+p::first-letter{
+    font-size: 100px;
+    color: orchid;
+}
+
+/* ---------------------- */
+p::first-line{
+    font-weight: 900;
+}
+
+
+/* ------------------ */
+
+h1::after{
+    /* content: ' maverick'; */
+    content: '\1F60D';
+}
+
+h1::before{
+    content: ' maverick ';
+    content: '\1F929';
+}

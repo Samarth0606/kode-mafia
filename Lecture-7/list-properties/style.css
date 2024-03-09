@@ -1,0 +1,15 @@
+li{
+    border: 2px solid black;
+    list-style-position: inside;
+    /* list-style-position: outside; */
+    list-style-type:none ;
+}
+
+div{
+    border-width: 5px;
+    border-style: solid;
+    border-color: red;
+
+    box-shadow: 3px 3px 2px green;
+    /* border: 2px solid red; */
+}

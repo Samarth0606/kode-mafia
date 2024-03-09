@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+    height: 100px;
+    width: 100px;
+    /* child property */
+    /* display: inline-block; */
+}
+
+section{
+    height: 700px;
+    border: 2px solid red;
+    /* parent property*/
+    display: flex;
+    /* flex-direction: row;  default*/
+    /* justify-content: center; */
+    /* justify-content: flex-start; default*/ 
+    /* justify-content: flex-end; */
+    /* justify-content: space-around;
+    justify-content: space-evenly;
+    justify-content: space-between; */
+
+
+    /* ---------------- */
+    /* flex-direction: column;
+    justify-content: center;
+    justify-content: flex-end; */
+
+    /* ------------ */
+    /* flex-direction: column-reverse;
+    justify-content: center;
+    justify-content: flex-start; */
+
+    /* ----------- */
+    /* flex-direction: row-reverse;
+    justify-content: flex-end;
+    justify-content: center; */
+
+    /* ----------------------------- */
+
+    /* align-items: center; */
+    /* align-items: flex-start; */
+    /* align-items: stretch;
+    align-items: flex-end; */
+
+    /* -------------------------- */
+
+    /* justify-content: space-evenly; */
+    /* flex-wrap: nowrap; */
+    /* flex-wrap: wrap-reverse; */
+    /* flex-wrap: wrap; */
+
+    /* ---------------------- */
+    align-content: flex-start;
+    /* gap: 20px 40px; */
+    /* row-gap: 20px;
+    column-gap: 40px; */
+}
+
+
+#three{
+    flex-grow: 2;
+    flex-shrink: 2;
+    align-self: center;
+
+}
+#four{
+    flex-grow: 1;
+    flex-shrink: 1;
+    align-self: flex-end;
+
+}
+
+
+
+

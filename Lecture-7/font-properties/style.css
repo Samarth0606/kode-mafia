@@ -1,0 +1,29 @@
+
+
+/* .open-sans{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+} */
+
+
+/* p{
+    font-size: 30px;
+    font-family: cursive;
+    font-weight:100;
+    line-height:100px ;
+    letter-spacing: 1.2rem;
+} */
+
+/* text-shadow */
+
+h1{
+    font-size: 70px;
+    /* text-shadow: 2px 2px 3px red; */
+    text-shadow: 2px 2px 3px red,
+    3px 3px 3px yellow,
+    4px 4px 3px green;
+}

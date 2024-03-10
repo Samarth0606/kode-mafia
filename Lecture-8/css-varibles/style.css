@@ -1,0 +1,11 @@
+/* scope */
+:root{
+    --laal-rang : red;
+    --hara-background : green;
+    --neela-aasman : blue;
+}
+
+
+h1{
+    background-color: var(--neela-aasman);
+}

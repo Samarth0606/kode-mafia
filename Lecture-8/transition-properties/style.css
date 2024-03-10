@@ -1,0 +1,12 @@
+div{
+    height: 150px;
+    width: 150px;
+    border: 2px solid  black;
+    background-color: beige;
+}
+
+div:hover{
+    background-color: chocolate;
+    /* border-radius: 50px ; */
+    border-radius: 50% ;
+}

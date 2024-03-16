@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+#row{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    background-color: rgb(255, 196, 248);
+
+    animation-name: something;
+    animation-duration: 3s;
+    animation-iteration-count: 3;
+    animation-delay: 1s;
+    animation-direction:normal;
+    /* animation-direction:reverse; */
+    /* animation-direction:alternate; */
+    /* animation-direction:alternate-reverse; */
+
+    animation-fill-mode: backwards;
+    /* animation-fill-mode: backwards; */
+    animation-play-state: running;
+}
+
+#row:hover{
+    animation-play-state: paused;
+    
+}
+
+/* way-1 */
+/* @keyframes something {
+    from{
+        height: 100px;
+    }
+    to{
+        height: 400px;
+    }
+} */
+
+/* --------------------- */
+/* way-2 */
+
+@keyframes something {
+    0%{
+        height: 100px;
+        background-color: yellow;
+    }
+    25%{
+        height: 600px;
+        /* background-color: green; */
+    }
+    50%{
+        height: 200px;
+        /* background-color: blue; */
+    }
+    75%{
+        height: 700px;
+        /* background-color: brown; */
+    }
+    100%{
+        height: 400px;
+        background-color: red;
+    }
+}
+
+

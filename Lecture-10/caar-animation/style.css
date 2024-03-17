@@ -1,0 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.samarth{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../assets/sky.jpg);
+    background-position: center;
+    /* background-repeat: repeat-x; */
+}
+
+

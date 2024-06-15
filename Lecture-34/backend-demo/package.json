@@ -1,0 +1,14 @@
+{
+  "name": "backend-demo",
+  "version": "1.0.0",
+  "description": "ye hai ek aalu",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sam",
+  "license": "ISC",
+  "dependencies": {
+    "give-me-a-joke": "^0.5.1"
+  }
+}

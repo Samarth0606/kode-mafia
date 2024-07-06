@@ -1,0 +1,19 @@
+{
+  "name": "backend-proj",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "method-override": "^3.0.0",
+    "mongoose": "^8.4.4",
+    "nodemon": "^3.1.4"
+  }
+}
